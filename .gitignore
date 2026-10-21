@@ -1,0 +1,33 @@
+# Secrets and local configuration
+.env
+.env.*
+!.env.example
+.antispam-install.json
+
+# Python environments and bytecode
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Runtime data
+*.db
+*.db-wal
+*.db-shm
+data/
+logs/
+*.log
+
+# Archives / backups
+*.zip
+*.tar
+*.tar.gz
+*.tgz
+*.bak
+*.backup
+
+# Tooling / OS metadata
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
